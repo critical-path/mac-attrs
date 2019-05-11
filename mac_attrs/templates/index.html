@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block body %}
+<form>
+  <div class="form-group">
+    <input class="form-control" type="text" name="address" minlength=12 maxlength=17 placeholder="address"></input>
+    <small class="form-text text-muted">
+      Enter 12 hexadecimal digits in plain, hyphen, colon, or dot notation.
+    </small>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-primary" type="submit">submit</button>
+  </div>
+</form>
+{% endblock %}

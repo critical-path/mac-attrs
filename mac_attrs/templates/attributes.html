@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block body %}
+<h3 class="text-muted text-center">{{ attributes.normalized }}</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">attribute</th>
+      <th scope="col">value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>type</td>
+      <td>{{ attributes.type }}</td>
+    </tr>
+    <tr>
+      <td>has <abbr class="initialism" title="organizationally-unique identifier">OUI</abbr></td>
+      <td>{{ attributes.has_oui }}</td>
+    </tr>
+    <tr>
+      <td>has <abbr class="initialism" title="company id">CID</abbr></td>
+      <td>{{ attributes.has_cid }}</td>
+    </tr>
+    <tr>
+      <td>is broadcast</td>
+      <td>{{ attributes.is_broadcast }}</td>
+    </tr>
+    <tr>
+      <td>is multicast</td>
+      <td>{{ attributes.is_multicast }}</td>
+    </tr>
+    <tr>
+      <td>is unicast</td>
+      <td>{{ attributes.is_unicast }}</td>
+    </tr>
+    <tr>
+      <td>is <abbr class="initialism" title="universally-administered address">UAA</abbr></td>
+      <td>{{ attributes.is_uaa }}</td>
+    </tr>
+    <tr>
+      <td>is <abbr class="initialism" title="locally-administered address">LAA</abbr></td>
+      <td>{{ attributes.is_laa }}</td>
+    </tr>
+    <tr>
+      <td>is random</td>
+      <td>{{ attributes.is_random }}</td>
+    </tr>
+  </tbody>
+</table>
+<p><a href="./index.html">back</a></p>
+{% endblock %}
