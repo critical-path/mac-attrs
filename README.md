@@ -46,7 +46,7 @@ $ ./prep-mac-attrs.sh
 1. Run `gunicorn` with the `--bind` option.
 
 ```bash
-$ gunicorn bind 127.0.0.1:8080 "mac_attrs:make_app()"
+$ gunicorn --bind 127.0.0.1:8080 "mac_attrs:make_app()"
 ```
 
 2. Point your browser to the web app.
