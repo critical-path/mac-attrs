@@ -1,3 +1,13 @@
+.. image:: https://travis-ci.com/critical-path/mac-attrs.svg?branch=master
+   :target: https://travis-ci.com/critical-path/mac-attrs
+
+.. image:: https://coveralls.io/repos/github/critical-path/mac-attrs/badge.svg?branch=master
+   :target: https://coveralls.io/github/critical-path/mac-attrs?branch=master
+
+.. image:: https://readthedocs.org/projects/mac-attrs/badge/?version=latest
+   :target: https://mac-attrs.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
 Introduction
 ============
 

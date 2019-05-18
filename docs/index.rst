@@ -9,10 +9,3 @@ Welcome to the docs for mac-attrs!
    install
    use
    test
-
-Indices
-=======
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
