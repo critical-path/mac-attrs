@@ -1,16 +1,29 @@
+"""
+This module contains the app factory.
+"""
+
 import flask
 import macaddress
 import random_mac
 
-# Restore (unpickle) the classifier.
-classifier = random_mac.classifier.restore(
-  file="./random-mac-classifier.pickled"
-)
+def make_app(file="./random-mac-classifier.pickled"):
+  """
+  This is the app factory.
 
-def make_app():
+  Parameters
+  ----------
+  file : str
+    The name of the file containing the 
+    saved (pickled) classifier.
+
+  Returns
+  -------
+  flask app
+    An instance of the app.
   """
-  app factory
-  """
+
+  # Restore (unpickle) the classifier.
+  classifier = random_mac.classifier.restore(file=file)
 
   # Create the flask app.
   app = flask.Flask(__name__)
@@ -57,6 +70,6 @@ def make_app():
       # If the MAC address is in an invalid format, then
       # return the error page.
       except macaddress.AddressError:
-        return flask.render_template("error.html")
+        return flask.render_template("error.html"), 400
 
   return app

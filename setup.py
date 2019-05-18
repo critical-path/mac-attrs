@@ -2,8 +2,8 @@ import setuptools
 
 setuptools.setup(
   name="mac-attrs",
-  version="0.1.0",
-  description="mac-attrs is a fun, little web app that evaluates the attributes of a MAC address.",
+  version="0.2.0",
+  description="mac-attrs is a web app that evaluates the attributes of MAC addresses.",
   url="https://github.com/critical-path/mac-attrs",
   author="critical-path",
   author_email="n/a",
@@ -28,5 +28,12 @@ setuptools.setup(
     "gunicorn",
     "macaddress @ git+https://github.com/critical-path/macaddress.git",
     "random-mac @ git+https://github.com/critical-path/random-mac.git"
-  ]
+  ],
+  setup_requires={
+    "test": [
+      "coveralls",
+      "pytest",
+      "pytest-cov"
+    ]
+  }
 )
