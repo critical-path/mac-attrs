@@ -32,7 +32,7 @@ setuptools.setup(
   extras_require={
     "test": [
       "coveralls",
-      "pytest",
+      "pytest>=4.4",
       "pytest-cov"
     ]
   }
