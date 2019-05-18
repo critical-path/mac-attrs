@@ -90,7 +90,7 @@ def pickle(tmp_path, classifier):
   # Yield the path.
   yield file
 
-# This fexture represents an instance of the app.
+# This fixture represents an instance of the app.
 
 @pytest.fixture
 def app(pickle):
