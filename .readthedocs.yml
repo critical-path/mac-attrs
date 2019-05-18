@@ -9,4 +9,4 @@ formats:
 python:
   install:
     - method: pip
-  path: .
+      path: .
