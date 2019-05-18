@@ -7,7 +7,8 @@ mac-attrs combines the functionality of `macaddress <https://github.com/critical
 Installing mac-attrs
 ====================
 
-mac-attrs is available on GitHub at https://github.com/critical-path/mac-attrs.  
+mac-attrs is available on GitHub at https://github.com/critical-path/mac-attrs.
+
 If you do not have pip version 18.1 or higher, then run the following command from your shell.
 
 .. code-block:: console
