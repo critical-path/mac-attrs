@@ -29,7 +29,7 @@ setuptools.setup(
     "macaddress @ git+https://github.com/critical-path/macaddress.git",
     "random-mac @ git+https://github.com/critical-path/random-mac.git"
   ],
-  setup_requires={
+  extras_require={
     "test": [
       "coveralls",
       "pytest",
