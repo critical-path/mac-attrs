@@ -62,6 +62,7 @@ Finally, point your browser to any of the following URLs to begin evaluating MAC
 * :code:`http://127.0.0.1:8080/index`
 * :code:`http://127.0.0.1:8080/index.html`
 * :code:`http://127.0.0.1:8080/mac-attrs`
+* :code:`http://127.0.0.1:8080/mac-attrs.html`
 
 
 Testing mac-attrs

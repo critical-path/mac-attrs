@@ -33,6 +33,7 @@ def make_app(file="./random-mac-classifier.pickled"):
   @app.route("/index")
   @app.route("/index.html")
   @app.route("/mac-attrs")
+  @app.route("/mac-attrs.html")
   def index():
     # Check the URI's query parameters for the `address` key.
     address = flask.request.args.get("address")
