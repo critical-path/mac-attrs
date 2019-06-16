@@ -2,7 +2,8 @@
 {% block body %}
 <form>
   <div class="form-group">
-    <input class="form-control" type="text" name="address" minlength=12 maxlength=17 placeholder="address"></input>
+    <label for="address">address</label>
+    <input class="form-control" id="address" name="address" minlength=12 maxlength=17 type="text" required></input>
     <small class="form-text text-muted">
       enter 12 hexadecimal digits in plain, hyphen, colon, or dot notation.
     </small>

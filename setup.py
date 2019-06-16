@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
   name="mac-attrs",
-  version="0.3.0",
+  version="0.4.0",
   description="mac-attrs is a web app that evaluates the attributes of MAC addresses.",
   url="https://github.com/critical-path/mac-attrs",
   author="critical-path",
