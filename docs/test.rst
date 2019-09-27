@@ -11,4 +11,4 @@ If pytest raises an :code:`INTERNALERROR`, then run the following command from y
 
 .. code-block:: console
 
-   [user@host random-mac]$ sudo $(which pytest) --disable-warnings --cov --cov-report=term-missing
+   [user@host mac-attrs]$ sudo $(which pytest) --disable-warnings --cov --cov-report=term-missing
