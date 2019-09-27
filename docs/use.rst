@@ -1,20 +1,9 @@
 Using mac-attrs
 ===============
 
-Before using mac-attrs for the first time, run the following commands from your shell.
+Using mac-attrs is easy!
 
-.. code-block:: console
-
-   [user@host mac-attrs]$ chmod +x ./get-started.sh
-   [user@host mac-attrs]$ ./get-started.sh
-
-Then, start the web server by running the following command from your shell.
-
-.. code-block:: console
-
-   [user@host mac-attrs]$ gunicorn --bind=0.0.0.0:8080 --workers=2 "mac_attrs:make_app()"
-
-Finally, point your browser to any of the following URLs to begin evaluating MAC addresses.
+1. Point your browser to any of the following URLs.
 
 * :code:`http://localhost:8080/`
 * :code:`http://localhost:8080/home`
@@ -23,3 +12,9 @@ Finally, point your browser to any of the following URLs to begin evaluating MAC
 * :code:`http://localhost:8080/index.html`
 * :code:`http://localhost:8080/mac-attrs`
 * :code:`http://localhost:8080/mac-attrs.html`
+
+2. Type a MAC address.
+
+3. Click on the :code:`submit` button.
+
+4. View the results.

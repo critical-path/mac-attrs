@@ -7,5 +7,6 @@ Welcome to the docs for mac-attrs!
 
    introduction
    install
+   start
    use
    test
