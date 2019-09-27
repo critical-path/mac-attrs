@@ -30,6 +30,8 @@ def make_app(file="./random-mac-classifier.pickled"):
 
   # Allow multiple routes to the index.
   @app.route("/")
+  @app.route("/home")
+  @app.route("/home.html")
   @app.route("/index")
   @app.route("/index.html")
   @app.route("/mac-attrs")
